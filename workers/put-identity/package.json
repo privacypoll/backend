@@ -1,0 +1,15 @@
+{
+  "name": "put-identity",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@cloudflare/zkp-ecdsa": "^0.2.5"
+  }
+}

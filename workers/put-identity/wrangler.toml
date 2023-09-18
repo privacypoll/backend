@@ -1,0 +1,15 @@
+name = "put-identity"
+main = "src/index.ts"
+compatibility_date = "2023-09-17"
+usage_model = "bundled"
+compatibility_flags = [ "nodejs_compat" ]
+env = { }
+
+[triggers]
+crons = [ ]
+
+[unsafe]
+  [[unsafe.bindings]]
+  id = "caf456f4-d7a4-4516-a77e-7510cbfa808c"
+  name = "DB_KEYRINGS"
+  type = "d1"

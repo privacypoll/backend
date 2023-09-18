@@ -1,0 +1,20 @@
+name = "put-block"
+main = "src/index.ts"
+compatibility_date = "2023-09-16"
+usage_model = "bundled"
+compatibility_flags = [ "nodejs_compat" ]
+env = { }
+
+[triggers]
+crons = [ ]
+
+[unsafe]
+  [[unsafe.bindings]]
+  id = "f3998e93-bbf2-4c6e-860f-27e3e4d5f1ad"
+  name = "DB_BLOCKCHAIN"
+  type = "d1"
+
+  [[unsafe.bindings]]
+  id = "caf456f4-d7a4-4516-a77e-7510cbfa808c"
+  name = "DB_KEYRINGS"
+  type = "d1"
